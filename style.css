@@ -1,0 +1,165 @@
+/* reset to make working easier */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 375px;
+  text-align: center;
+}
+
+/* positioning the background image */
+#background-image {
+  position: absolute;
+  width: 630.38px;
+  height: 648px;
+  left: -126.38px;
+  top: 53.12px;
+}
+
+#tool-bar {
+  position: absolute;
+  width: 375px;
+  height: 48px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+
+#normal-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 24px;
+  top: calc(50% - 30px/2);
+  border-radius: 8px;
+}
+
+#logo-placeholder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  position: absolute;
+  width: 114px;
+  height: 48px;
+  left: 12px;
+  top: calc(50% - 48px/2);
+}
+
+#welcome {
+  width: 90px;
+  height: 28px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #28352F;
+  order: 0;
+}
+
+/* tool bar */
+#unions {
+  position: absolute;
+  width: 18px;
+  height: 12px;
+  left: 3px;
+  top: 6px;
+  background-color: #28352F;
+}
+
+/* main body */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 24px;
+  gap: 58px;
+  position: absolute;
+  width: 375px;
+  height: 726px;
+  left: 0px;
+  top: 48px;
+}
+
+#primary {
+  width: 327px;
+  height: 192px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172B4D;
+  order: 0;
+}
+
+#primary span {
+  color:  #36B37F;
+}
+
+#support {
+  width: 327px;
+  height: 164px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  color: #172B4D;
+  order: 1;
+}
+
+#social {
+  width: 327px;
+  height: 48px;
+  order: 2;
+}
+
+#action {
+  width: 327px;
+  height: 48px;
+  order: 3;
+  position: absolute;
+  top: 614px;
+  left: 24px;
+}
+
+#action-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: calc(50% - 40px/2 + 0.5px);
+  bottom: 4px;
+  background: #FFFFFF;
+  border: 1px solid #DFE1E6;
+  border-radius: 32px;
+}
+
+#action-button img {
+  position: absolute;
+  left: 32%;
+  right: 25%;
+  top: 40.5%;
+  bottom: 34.5%;
+}
+
+.flg {
+  flex: none;
+  flex-grow: 0;
+}
