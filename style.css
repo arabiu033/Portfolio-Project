@@ -164,3 +164,50 @@ main {
   flex: none;
   flex-grow: 0;
 }
+
+/* Recent section */
+#recent-work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 24px;
+  gap: 58px;
+  position: absolute;
+  width: 379px;
+  height: 3283px;
+  left: 0px;
+  top: 708px;
+}
+
+#recent-work-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 24px;
+  width: 327px;
+  height: 125px;
+  order: 0;
+}
+
+#recent-work-text h1 {
+  width: 327px;
+  height: 97px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #172B4D;
+  order: 0;
+}
+
+#recent-work-text img {
+  width: 48px;
+  height: 4px;
+  background: #36B37E;
+  border-radius: 24px;
+  order: 1;
+}
