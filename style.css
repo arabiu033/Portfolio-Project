@@ -25,6 +25,15 @@ body {
   top: 57.12px;
 }
 
+/* about me cards images */
+.icon img {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  left: 104px;
+  top: 24px;
+}
+
 #tool-bar {
   display: flex;
   flex-direction: row;
@@ -460,14 +469,6 @@ body {
   left: calc(50% - 327px / 2);
   top: 16px;
   z-index: 5;
-}
-
-.icon > img {
-  position: absolute;
-  width: 120px;
-  height: 120px;
-  left: 104px;
-  top: 24px;
 }
 
 .about-me-image-placeholder {
