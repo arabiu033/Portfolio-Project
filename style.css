@@ -335,11 +335,6 @@ body {
   transition: all 1000ms ease-in-out;
 }
 
-.btn:hover, 
-.btn-resume:hover {
-  opacity: 0.5;
-}
-
 .btn-text {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -389,6 +384,12 @@ body {
   z-index: 5;
   cursor: pointer;
   transition: all 1000ms ease-in-out;
+}
+
+.btn:hover,
+
+.btn-resume:hover {
+  opacity: 0.5;
 }
 
 #background-image2 {
