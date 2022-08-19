@@ -325,7 +325,7 @@ body {
   border-radius: 4px;
 }
 
-h4 {
+.btn-text {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
