@@ -227,14 +227,12 @@ body {
 }
 
 #card-row {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
   padding: 4px 2px;
   gap: 24px;
   width: 331px;
   height: 2972px;
-  order: 1;
 }
 
 .card {
@@ -276,6 +274,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   padding: 0;
   gap: 8px;
   width: 305px;
@@ -332,6 +331,13 @@ body {
   background: #36b37f;
   border: 0;
   border-radius: 4px;
+  cursor: pointer;
+  transition: all 1000ms ease-in-out;
+}
+
+.btn:hover, 
+.btn-resume:hover {
+  opacity: 0.5;
 }
 
 .btn-text {
@@ -380,6 +386,9 @@ body {
   border: 0;
   border-radius: 4px;
   margin-top: 5px;
+  z-index: 5;
+  cursor: pointer;
+  transition: all 1000ms ease-in-out;
 }
 
 #background-image2 {
@@ -443,7 +452,7 @@ body {
   gap: 8px;
 }
 
-.inner-tag {
+.inner-tags {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -452,7 +461,7 @@ body {
   border-radius: 8px;
 }
 
-.inner-tag h5 {
+.inner-tags h5 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
