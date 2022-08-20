@@ -2,17 +2,17 @@
 
 # Portfolio Project
 
-> Description the project.
+> - To construct a UI. 
+> - understand how to interpret a Figma design. 
+> - Replicating designs with Flexbox and Grid to Build a website for your online portfolio. 
+> - Enhance the look of the website by using photos and backgrounds.
 
 
 ## Built With
 
 - HTML && CSS
 - Git, Vscode and Linter
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
+- npm
 
 
 ## Author
