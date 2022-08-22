@@ -83,7 +83,6 @@ body {
   line-height: 28px;
   display: flex;
   align-items: center;
-  text-align: center;
   color: #28352f;
   order: 0;
 }
@@ -133,7 +132,6 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  text-align: center;
   color: #172b4d;
 }
 
@@ -213,7 +211,6 @@ body {
   line-height: 52px;
   display: flex;
   align-items: center;
-  text-align: center;
   color: #172b4d;
   order: 0;
 }
@@ -266,7 +263,6 @@ body {
   line-height: 32px;
   display: flex;
   align-items: center;
-  text-align: center;
   color: #3a4a42;
 }
 
@@ -345,7 +341,6 @@ body {
   color: #fff;
   display: flex;
   align-items: center;
-  text-align: center;
 }
 
 #about-me {
