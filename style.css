@@ -454,6 +454,10 @@ body {
   border-radius: 8px;
 }
 
+.tags li {
+  list-style: none;
+}
+
 .inner-tags h5 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
