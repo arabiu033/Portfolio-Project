@@ -448,9 +448,7 @@ body {
 }
 
 .inner-tags {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  float: left;
   padding: 12px;
   background: #fff;
   border-radius: 8px;
