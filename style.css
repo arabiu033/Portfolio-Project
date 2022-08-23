@@ -517,6 +517,7 @@ textarea {
 
 textarea {
   height: 114px;
+  resize: vertical;
 }
 
 form {
