@@ -505,11 +505,12 @@ body {
   margin-top: 30px;
 }
 
-input, textarea {
+input, 
+textarea {
   display: block;
   width: 327px;
   height: 48px;
-  border: 1px solid #D0D9D4;
+  border: 1px solid #d0d9d4;
   border-radius: 4px;
   padding: 16px;
 }
@@ -535,7 +536,6 @@ form {
   position: absolute;
   height: 132px;
   width: 92px;
-
   top: 700px;
   left: 300px;
 }
