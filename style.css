@@ -14,6 +14,7 @@ a {
 
 body {
   font-size: 1rem;
+  font-family: 'Inter', sans-serif;
 }
 
 header {
@@ -148,8 +149,8 @@ form {
   background-color: #ebf0ee;
   border-radius: 5px;
   padding: 2% 3%;
-  font-size: 0.75rem;
-  font-weight: 500;
+  font-size: 0.95rem;
+  font-weight: 700;
   color: #3a4a42;
 }
 
@@ -213,12 +214,20 @@ button:hover {
 
 .title-tags li {
   background-color: white;
-  padding: 12px;
+  padding: 18px;
   margin: 4px;
   line-height: 16px;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 600;
   border-radius: 5px;
+}
+
+.project-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #344563;
+  text-align: center;
 }
 
 .contact-me {
