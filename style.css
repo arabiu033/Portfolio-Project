@@ -1,5 +1,7 @@
 /* reset to make working easier */
-*, li, ul, *::after, *::before{
+*,
+li, 
+ul {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -86,8 +88,12 @@ form {
   padding: 2%;
 }
 
-#recent-work {
-  
+.end hr {
+  width: 40%;
+  height: 4px;
+  background-color: #172b4d;
+  border: none;
+  margin: 10% auto;
 }
 
 #recent-work-text hr {
@@ -156,6 +162,11 @@ form {
   font-weight: 500;
   border-radius: 4px;
   border: none;
+  transition: all 1000ms ease-in-out;
+}
+
+button:hover {
+  opacity: 0.5;
 }
 
 #about-me {
@@ -223,7 +234,6 @@ form {
   flex-direction: column;
   align-items: center;
   gap: 25px;
-
 }
 
 form input,
@@ -247,13 +257,4 @@ textarea {
   flex-direction: column;
   align-items: center;
   gap: 50px;
-
-}
-
-.end hr {
-  width: 40%;
-  height: 4px;
-  background-color: #172b4d;
-  border: none;
-  margin: 10% auto;
 }
