@@ -291,9 +291,6 @@ textarea {
     top: 1rem;
     left: calc(50% - 250px / 2);
     gap: 10%;
-  }
-
-  #collapse-toolbar {
     color: #344563;
     font-weight: 600;
     font-size: 12px;
@@ -302,7 +299,7 @@ textarea {
 
   #main {
     background-image: url(./desktop-images/Header-llustration-desktop@2x.png);
-    padding: 170px 0px;
+    padding: 170px 0;
     gap: 1.7rem;
     justify-content: flex-start;
   }
@@ -411,7 +408,7 @@ textarea {
   footer {
     margin-top: 10%;
     padding-left: 3%;
-    padding-bottom: .5%;
+    padding-bottom: 0.5%;
   }
 
   .img1 {
