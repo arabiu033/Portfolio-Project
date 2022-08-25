@@ -34,6 +34,8 @@ header {
 
 #collapse-toolbar {
   visibility: hidden;
+  animation-duration: 2s;
+  animation-name: slidein;
 }
 
 #welcome {
@@ -52,13 +54,14 @@ header {
   justify-content: space-around;
 }
 
-#main h1 {
-  animation-duration: 2s;
-  animation-name: slidein;
-}
-
 @keyframes slidein {
-  
+  from {
+    margin-left: 60%;
+  }
+
+  to {
+    margin-left: 0;
+  }
 }
 
 .primary {
