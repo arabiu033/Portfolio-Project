@@ -52,6 +52,15 @@ header {
   justify-content: space-around;
 }
 
+#main h1 {
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  
+}
+
 .primary {
   text-align: center;
   font-size: 40px;
