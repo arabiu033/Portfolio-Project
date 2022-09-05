@@ -4,6 +4,7 @@ const x = document.querySelector('#tool-bar');
 const exit = document.createElement('img');
 const footerDiv = document.createElement('div');
 const footerHr = document.createElement('hr');
+const links = menuContainer.querySelectorAll('a');
 
 function openMenu() {
   menuContainer.classList.remove('collapse-toolbar');
@@ -31,3 +32,7 @@ function closeMenu() {
 }
 
 exit.addEventListener('click', closeMenu);
+
+links.forEach(element => {
+  element.addEventListener('click', closeMenu)
+});
