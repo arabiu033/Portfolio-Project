@@ -52,13 +52,10 @@ header {
   margin: 9% 9% 0 0;
   width: 24px;
   height: 24px;
-  align-self: flex-end; 
+  align-self: flex-end;
 }
 
 .menu-list .msg {
-  /* position: absolute; */
-  /* top: 1rem; */
-
   font-weight: 600;
   font-size: 1rem;
   line-height: 2rem;
@@ -154,7 +151,6 @@ form {
   text-align: center;
   height: 10vh;
   background-color: #e5e5e5;
-
 }
 
 .footer-hr {
@@ -252,7 +248,7 @@ button:hover {
   align-items: center;
   height: 50vh;
   background-image: url(./images/illustration1-about-me-mobile.svg),
-    url(./images/illustration-about-me-mobile.svg);
+  url(./images/illustration-about-me-mobile.svg);
   background-repeat: no-repeat, no-repeat;
   background-position: right top, left bottom;
 }
@@ -404,7 +400,7 @@ textarea {
 
   #about-me-text {
     background-image: url(./desktop-images/illustration\ about\ me\ desktop.svg),
-      url(./desktop-images/illustration-about-me-2-desktop.svg);
+    url(./desktop-images/illustration-about-me-2-desktop.svg);
     background-position: right 100%, left 100%;
     justify-content: flex-start;
     gap: 12%;
