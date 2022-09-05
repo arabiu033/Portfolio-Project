@@ -15,7 +15,7 @@ a {
 
 body {
   font-size: 1rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 header {
@@ -32,10 +32,39 @@ header {
   align-items: baseline;
 }
 
-#collapse-toolbar {
+.collapse-toolbar {
   visibility: hidden;
-  animation-duration: 2s;
-  animation-name: slidein;
+}
+
+.menu-list {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2%;
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+  color: #3a4a42;
+}
+
+.exit-img {
+  margin: 9% 9% 0 0;
+  width: 24px;
+  height: 24px;
+  align-self: flex-end;
+}
+
+.menu-list .msg {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 2rem;
+  margin: 0.5rem 0;
+  padding: 0 9%;
+}
+
+.hide-top {
+  visibility: hidden;
 }
 
 #welcome {
@@ -114,6 +143,25 @@ form {
   margin: 10% auto;
 }
 
+.last-div {
+  position: absolute;
+  bottom: 0;
+  opacity: 0.5;
+  width: 100vw;
+  text-align: center;
+  height: 10vh;
+  background-color: #e5e5e5;
+}
+
+.footer-hr {
+  width: 150px;
+  height: 4px;
+  background-color: #172b4d;
+  border: none;
+  margin: 10% auto;
+  border-radius: 3px;
+}
+
 #recent-work-text hr {
   width: 17%;
   height: 4px;
@@ -124,7 +172,7 @@ form {
 
 #card-row {
   display: grid;
-  grid-template: repeat(5, 1fr)/1fr;
+  grid-template: repeat(5, 1fr) / 1fr;
 }
 
 .card {
@@ -199,7 +247,9 @@ button:hover {
   justify-content: space-between;
   align-items: center;
   height: 50vh;
-  background-image: url(./images/illustration1-about-me-mobile.svg), url(./images/illustration-about-me-mobile.svg);
+  background-image:
+    url(./images/illustration1-about-me-mobile.svg),
+    url(./images/illustration-about-me-mobile.svg);
   background-repeat: no-repeat, no-repeat;
   background-position: right top, left bottom;
 }
@@ -234,7 +284,7 @@ button:hover {
 
 .title-tags li {
   background-color: white;
-  padding: max(10px, 4%);
+  padding: 3%;
   margin: 1.8%;
   line-height: 16px;
   font-size: 15px;
@@ -267,7 +317,7 @@ form {
 
 form input,
 textarea {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
@@ -293,7 +343,7 @@ textarea {
     display: none;
   }
 
-  #collapse-toolbar {
+  .collapse-toolbar {
     visibility: visible;
     display: flex;
     flex-direction: row;
@@ -344,13 +394,15 @@ textarea {
   }
 
   #card-row {
-    grid-template: repeat(2, 1fr)/repeat(3, 1fr);
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
     gap: 3%;
     margin: 0 5%;
   }
 
   #about-me-text {
-    background-image: url(./desktop-images/illustration\ about\ me\ desktop.svg), url(./desktop-images/illustration-about-me-2-desktop.svg);
+    background-image:
+      url(./desktop-images/illustration\ about\ me\ desktop.svg),
+      url(./desktop-images/illustration-about-me-2-desktop.svg);
     background-position: right 100%, left 100%;
     justify-content: flex-start;
     gap: 12%;
