@@ -247,7 +247,7 @@ button:hover {
   justify-content: space-between;
   align-items: center;
   height: 50vh;
-  background-image: 
+  background-image:
     url(./images/illustration1-about-me-mobile.svg),
     url(./images/illustration-about-me-mobile.svg);
   background-repeat: no-repeat, no-repeat;
@@ -401,8 +401,8 @@ textarea {
 
   #about-me-text {
     background-image:
-        url(./desktop-images/illustration\ about\ me\ desktop.svg),
-        url(./desktop-images/illustration-about-me-2-desktop.svg);
+      url(./desktop-images/illustration\ about\ me\ desktop.svg),
+      url(./desktop-images/illustration-about-me-2-desktop.svg);
     background-position: right 100%, left 100%;
     justify-content: flex-start;
     gap: 12%;

@@ -16,7 +16,6 @@ function openMenu() {
   footerDiv.classList.add('last-div');
   footerHr.classList.add('footer-hr');
   footerDiv.append(footerHr);
-  
   menuContainer.prepend(exit);
   menuContainer.append(footerDiv);
 }
