@@ -5,8 +5,6 @@ const exit = document.createElement('img');
 const footerDiv = document.createElement('div');
 const footerHr = document.createElement('hr');
 
-div.addEventListener('click', openMenu);
-
 function openMenu() {
   menuContainer.classList.remove('collapse-toolbar');
   menuContainer.classList.add('menu-list');
@@ -23,8 +21,7 @@ function openMenu() {
   menuContainer.append(footerDiv);
 }
 
-exit.addEventListener('click', closeMenu);
-
+div.addEventListener('click', openMenu);
 function closeMenu() {
   x.classList.remove('hide-top');
   menuContainer.classList.add('collapse-toolbar');
@@ -33,3 +30,5 @@ function closeMenu() {
   footerDiv.removeChild(footerHr);
   menuContainer.removeChild(footerDiv);
 }
+
+exit.addEventListener('click', closeMenu);
