@@ -37,15 +37,22 @@ header {
 }
 
 .menu-list {
+  position: fixed;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 10%;
+  gap: 2%;
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
   background: #fff;
   color: #3a4a42;
-  padding: 9%;
+}
+
+.exit-img {
+  margin: 9% 9% 0 0;
+  width: 24px;
+  height: 24px;
+  align-self: flex-end; 
 }
 
 .menu-list .msg {
@@ -55,6 +62,8 @@ header {
   font-weight: 600;
   font-size: 1rem;
   line-height: 2rem;
+  margin: 0.5rem 0;
+  padding: 0 9%;
 }
 
 .hide-top {
@@ -135,6 +144,26 @@ form {
   background-color: #172b4d;
   border: none;
   margin: 10% auto;
+}
+
+.last-div {
+  position: absolute;
+  bottom: 0;
+  opacity: 0.5;
+  width: 100vw;
+  text-align: center;
+  height: 10vh;
+  background-color: #e5e5e5;
+
+}
+
+.footer-hr {
+  width: 150px;
+  height: 4px;
+  background-color: #172b4d;
+  border: none;
+  margin: 10% auto;
+  border-radius: 3px;
 }
 
 #recent-work-text hr {
