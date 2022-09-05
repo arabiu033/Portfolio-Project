@@ -33,6 +33,6 @@ function closeMenu() {
 
 exit.addEventListener('click', closeMenu);
 
-links.forEach(element => {
-  element.addEventListener('click', closeMenu)
+links.forEach((element) => {
+  element.addEventListener('click', closeMenu);
 });
