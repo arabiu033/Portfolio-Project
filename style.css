@@ -456,6 +456,10 @@ textarea {
 
 @media (min-width: 768px) {
   /* Pop design added through javaScript css */
+  .blurr {
+    filter: blur(10px);
+  }
+  
   .Mobile-img {
     display: none;
   }

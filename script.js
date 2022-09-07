@@ -6,6 +6,8 @@ const footerDiv = document.createElement('div');
 const footerHr = document.createElement('hr');
 const links = menuContainer.querySelectorAll('a');
 const seeProject = document.querySelectorAll('.btn');
+const rcw = document.querySelector('#recent-work');
+const abtm = document.querySelector('#about-me');
 
 div.addEventListener('click', () => {
   menuContainer.classList.remove('collapse-toolbar');
@@ -163,9 +165,13 @@ for (let i = 0; i < seeProject.length; i += 1) {
     const divv = document.createElement('div');
     divv.innerHTML = popConstruction(i);
     document.body.appendChild(divv);
+    rcw.classList.add('blurr');
+    abtm.classList.add('blurr');
     const cancelBtn = document.querySelector('.cancel-btn');
     cancelBtn.addEventListener('click', async () => {
       document.body.removeChild(divv);
+      rcw.classList.remove('blurr');
+      abtm.classList.remove('blurr');
     });
   });
 }
