@@ -121,8 +121,7 @@ const projects = [
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
     linklive: '#',
     linkSrc: '#',
-  },
-  
+  },  
 ];
 
 const popConstruction = (i) => `
@@ -159,7 +158,7 @@ const popConstruction = (i) => `
     <script src="script.js"></script>
   </section>`;
 
-for (let i = 0; i < seeProject.length; i++) {
+for (let i = 0; i < seeProject.length; i += 1) {
   seeProject[i].addEventListener('click', () => {
     const divv = document.createElement('div');
     divv.innerHTML = popConstruction(i);
