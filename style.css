@@ -357,7 +357,7 @@ textarea {
   z-index: 2;
 }
 
-.cancel-btn{
+.cancel-btn {
   position: absolute;
   top: 4.1%;
   right: 7%;
@@ -379,7 +379,7 @@ textarea {
 
 .work-image > img {
   width: 100%;
-  min-height: 220px;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -390,7 +390,7 @@ textarea {
   font-size: 2.6em;
   color: #172b4d;
   text-align: left;
-  margin-top: 0.5em 0;
+  margin-top: 0.5em;
 }
 
 .tech-list {
@@ -405,7 +405,6 @@ textarea {
 .list1 {
   background: #ebf0ee;
   color: #3a4a42;
-  padding: 0.5em 0.75em 0.5em;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -436,9 +435,8 @@ textarea {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
   border: none;
-  width: fit-content;
   align-self: center;
-  background: #36B37F;
+  background: #36b37f;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 2px;
@@ -447,7 +445,6 @@ textarea {
   border-radius: 3px;
   width: 45%;
 }
-
 
 .wrk-btn > img {
   margin-left: 1.3em;
@@ -466,6 +463,7 @@ textarea {
   .Desktop-img {
     display: initial;
   }
+
   .work-info {
     display: grid;
     height: 90%;
@@ -476,6 +474,7 @@ textarea {
 
   .cancel-btn {
     background: gray;
+    opacity: 0.3;
     position: relative;
     right: 0;
     left: 2em;
@@ -496,11 +495,9 @@ textarea {
   }
 
   .work-image {
-
     grid-column: 1 / -1;
     grid-row: 2 / 3;
   }
-
 
   .work-title {
     grid-column: 1 / 3;
@@ -512,7 +509,7 @@ textarea {
   .tech-list {
     grid-column: 1 /-1;
     grid-row: 4 / 5;
-    margin-top: -2em;
+    margin-top: -1.2em;
     height: 2em;
   }
 
