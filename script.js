@@ -170,8 +170,8 @@ for (let i = 0; i < seeProject.length; i += 1) {
     const cancelBtn = document.querySelector('.cancel-btn');
     cancelBtn.addEventListener('click', async () => {
       document.body.removeChild(divv);
-      rcw.classList.remove('blurr');
       abtm.classList.remove('blurr');
+      rcw.classList.remove('blurr');
     });
   });
 }
