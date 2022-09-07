@@ -160,12 +160,12 @@ const popConstruction = (i) => `
   </section>`;
 
 for (let i = 0; i < seeProject.length; i++) {
-  seeProject[i].addEventListener("click", () => {
-    const divv = document.createElement("div");
+  seeProject[i].addEventListener('click', () => {
+    const divv = document.createElement('div');
     divv.innerHTML = popConstruction(i);
     document.body.appendChild(divv);
-    const cancelBtn = document.querySelector(".cancel-btn");
-    cancelBtn.addEventListener("click", async () => {
+    const cancelBtn = document.querySelector('.cancel-btn');
+    cancelBtn.addEventListener('click', async () => {
       document.body.removeChild(divv);
     });
   });
