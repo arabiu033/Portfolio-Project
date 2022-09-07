@@ -510,8 +510,7 @@ textarea {
     background: url(./desktop-images/SnapshootPortfolio.png);
     background-repeat: no-repeat;
     background-position: 100%, 100%;
-    background-repeat: no-repeat, no-repeat;
-  background-position: right top, left bottom;
+    background-position: right top, left bottom;
     background-size: cover;
     grid-column: 1 / -1;
     grid-row: 2 / 3;

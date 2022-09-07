@@ -100,10 +100,10 @@ for (let k = 0; k < projects.length; k += 1) {
   cardText.className = 'card-text';
   const projectTitle = document.createElement('h2');
   projectTitle.className = 'project-title';
-  projectTitle.insertAdjacentHTML('beforeend',projects[k].workTitle);
+  projectTitle.insertAdjacentHTML('beforeend', projects[k].workTitle);
   const tags1 = document.createElement('ul');
   tags1.className = 'tags1';
-  
+
   for (let l = 0; l < projects[k].technologies.length; l += 1) {
     const li = document.createElement('li');
     li.className = 'inner-tag1';
