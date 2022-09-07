@@ -643,13 +643,17 @@ textarea {
 
   #about-me {
     margin-top: 3%;
+    gap: 3em;
   }
 
   .about-me-card {
-    grid-template: 1fr/1fr 1fr 1fr;
+    display: flex;
     gap: 3%;
-    margin-top: 5vh;
     padding: 0 20%;
+  }
+
+  .about-me-cards {
+    width: 33%;
   }
 
   .title-tags {
