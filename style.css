@@ -662,6 +662,7 @@ textarea {
     justify-content: flex-start;
     gap: 6%;
     padding: 0 10%;
+    height: 110%;
   }
 
   .title-tags li {
@@ -677,6 +678,7 @@ textarea {
     flex-direction: row;
     align-items: flex-start;
     position: relative;
+    margin-top: 4%;
   }
 
   .contact-me h2 {
