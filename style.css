@@ -230,7 +230,7 @@ form {
   font-weight: 500;
   border-radius: 4px;
   border: none;
-  transition: all 1000ms ease-in-out;
+  transition: all 400ms ease-in-out;
 }
 
 button:hover {
@@ -257,15 +257,15 @@ button:hover {
 }
 
 .about-me-card {
-  margin-top: 7.5vh;
-  margin-bottom: 7.5vh;
+  margin-top: 5%;
+  margin-bottom: 5%;
   display: grid;
   grid-template: 1fr 1fr 1fr/1fr;
   padding: 0 7%;
 }
 
 .title-tags {
-  height: 50vh;
+  padding-bottom: 1.8%;
   margin-top: 24px;
   display: flex;
   flex-direction: column;
@@ -285,6 +285,7 @@ button:hover {
 }
 
 .title-tags li {
+  flex-shrink: 1;
   background-color: white;
   padding: 3% 5%;
   margin: 1.8%;
@@ -313,8 +314,14 @@ form {
   margin-bottom: 46px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 25px;
+  align-items: center;
+}
+
+.email-valid {
+  align-self: flex-start;
+  margin-top: -1.3em;
+  color: #36b37e;
 }
 
 form input,
@@ -390,7 +397,7 @@ textarea {
 }
 
 .work-title {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 2.2em;
@@ -412,7 +419,7 @@ textarea {
 .list1 {
   background: #ebf0ee;
   color: #3a4a42;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 0.75em;
@@ -425,7 +432,7 @@ textarea {
 .description {
   color: #344563;
   text-align: left;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 1em;
@@ -533,7 +540,7 @@ textarea {
 
   .list1 {
     background: #ebf0ee;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 0.75em;
@@ -620,6 +627,10 @@ textarea {
     margin-top: 5%;
   }
 
+  .card {
+    height: 32rem;
+  }
+
   #card-row {
     grid-template: repeat(2, 1fr) / repeat(3, 1fr);
     gap: 3%;
@@ -654,12 +665,18 @@ textarea {
 
   .about-me-cards {
     width: 33%;
+    flex-grow: 1;
   }
 
   .title-tags {
     justify-content: flex-start;
     gap: 6%;
     padding: 0 10%;
+    height: 110%;
+  }
+
+  .title-tags li {
+    flex-shrink: 1;
   }
 
   .icon {
@@ -671,6 +688,7 @@ textarea {
     flex-direction: row;
     align-items: flex-start;
     position: relative;
+    margin-top: 3%;
   }
 
   .contact-me h2 {
@@ -726,6 +744,7 @@ textarea {
     left: 0;
     bottom: -11vh;
     right: 70vw;
+    z-index: -10;
   }
 
   .img3 {
@@ -737,6 +756,6 @@ textarea {
     left: 0;
     bottom: -23vh;
     right: 0;
-    z-index: 100;
+    z-index: -100;
   }
 }
