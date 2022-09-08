@@ -91,6 +91,7 @@ const projects = [
   },
 ];
 
+// populating the work section with automatic generated cards
 const cardRow = document.querySelector('#card-row');
 for (let k = 0; k < projects.length; k += 1) {
   const card = document.createElement('div');
@@ -224,4 +225,30 @@ for (let i = 0; i < seeProject.length; i += 1) {
       recentWork.classList.remove('blurr');
     });
   });
+}
+
+// Validating user inputs on the contact me section
+const form = document.querySelector('#sign');
+const small = form.querySelector('small');
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+
+  if (validateEmail(form.elements['email'], 'Email should be in lower case'))
+    form.submit();
+})
+
+function validateEmail(input, msg) {
+  if (input.value === input.value.toLowerCase()) {
+    small.classList.remove('email-valid');
+    small.textContent = "";
+    return true
+  }
+
+  showError(input, msg);
+  return false;
+}
+
+function showError(input, msg) {
+  small.textContent = msg;
+  small.className = 'email-valid'
 }

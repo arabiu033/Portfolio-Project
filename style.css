@@ -230,7 +230,7 @@ form {
   font-weight: 500;
   border-radius: 4px;
   border: none;
-  transition: all 1000ms ease-in-out;
+  transition: all 400ms ease-in-out;
 }
 
 button:hover {
@@ -285,6 +285,7 @@ button:hover {
 }
 
 .title-tags li {
+  flex-shrink: 1;
   background-color: white;
   padding: 3% 5%;
   margin: 1.8%;
@@ -315,6 +316,12 @@ form {
   flex-direction: column;
   align-items: center;
   gap: 25px;
+}
+
+.email-valid {
+  align-self: flex-start;
+  margin-top: -1.3em;
+  color: #36b37e;
 }
 
 form input,
@@ -654,12 +661,17 @@ textarea {
 
   .about-me-cards {
     width: 33%;
+    flex-grow: 1;
   }
 
   .title-tags {
     justify-content: flex-start;
     gap: 6%;
     padding: 0 10%;
+  }
+
+  .title-tags li {
+    flex-shrink: 1;
   }
 
   .icon {
@@ -726,6 +738,7 @@ textarea {
     left: 0;
     bottom: -11vh;
     right: 70vw;
+    z-index: -10;
   }
 
   .img3 {
@@ -737,6 +750,6 @@ textarea {
     left: 0;
     bottom: -23vh;
     right: 0;
-    z-index: 100;
+    z-index: -100;
   }
 }
