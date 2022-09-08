@@ -626,6 +626,10 @@ textarea {
     margin-top: 5%;
   }
 
+  .card {
+    height: 32rem;
+  }
+
   #card-row {
     grid-template: repeat(2, 1fr) / repeat(3, 1fr);
     gap: 3%;
@@ -682,7 +686,7 @@ textarea {
     flex-direction: row;
     align-items: flex-start;
     position: relative;
-    margin-top: 4%;
+    margin-top: 3%;
   }
 
   .contact-me h2 {

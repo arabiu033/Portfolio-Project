@@ -146,6 +146,8 @@ const footerHr = document.createElement('hr');
 const links = menuContainer.querySelectorAll('a');
 const seeProject = document.querySelectorAll('.btn');
 const abtm = document.querySelector('#about-me');
+const form = document.querySelector('#sign');
+const small = form.querySelector('small');
 
 div.addEventListener('click', () => {
   menuContainer.classList.remove('collapse-toolbar');
@@ -228,8 +230,6 @@ for (let i = 0; i < seeProject.length; i += 1) {
 }
 
 // Validating user inputs on the contact me section
-const form = document.querySelector('#sign');
-const small = form.querySelector('small');
 form.addEventListener('submit', (e) => {
   e.preventDefault();
 
