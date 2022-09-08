@@ -249,7 +249,7 @@ function validateEmail(input, msg) {
 form.addEventListener('submit', (e) => {
   e.preventDefault();
 
-  if (validateEmail(form.elements['email'], 'Email should be in lower case')) {
+  if (validateEmail(form.elements.email, 'Email should be in lower case')) {
     form.submit();
   }
-})
+});
