@@ -257,15 +257,15 @@ button:hover {
 }
 
 .about-me-card {
-  margin-top: 7.5vh;
-  margin-bottom: 7.5vh;
+  margin-top: 5%;
+  margin-bottom: 5%;
   display: grid;
   grid-template: 1fr 1fr 1fr/1fr;
   padding: 0 7%;
 }
 
 .title-tags {
-  height: 50vh;
+  padding-bottom: 1.8%;
   margin-top: 24px;
   display: flex;
   flex-direction: column;
