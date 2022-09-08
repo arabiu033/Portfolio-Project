@@ -230,25 +230,26 @@ for (let i = 0; i < seeProject.length; i += 1) {
 }
 
 // Validating user inputs on the contact me section
-form.addEventListener('submit', (e) => {
-  e.preventDefault();
-
-  if (validateEmail(form.elements['email'], 'Email should be in lower case'))
-    form.submit();
-})
+function showError(input, msg) {
+  small.textContent = msg;
+  small.className = 'email-valid';
+}
 
 function validateEmail(input, msg) {
   if (input.value === input.value.toLowerCase()) {
     small.classList.remove('email-valid');
-    small.textContent = "";
-    return true
+    small.textContent = '';
+    return true;
   }
 
   showError(input, msg);
   return false;
 }
 
-function showError(input, msg) {
-  small.textContent = msg;
-  small.className = 'email-valid'
-}
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+
+  if (validateEmail(form.elements['email'], 'Email should be in lower case')) {
+    form.submit();
+  }
+})
