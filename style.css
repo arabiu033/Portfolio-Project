@@ -314,14 +314,8 @@ form {
   margin-bottom: 46px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 25px;
-}
-
-.email-valid {
-  align-self: flex-start;
-  margin-top: -1.3em;
-  color: #36b37e;
+  align-items: center;
 }
 
 form input,
