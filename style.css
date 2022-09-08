@@ -249,8 +249,7 @@ button:hover {
   justify-content: space-between;
   align-items: center;
   height: 20%;
-  background-image:
-    url(./images/illustration1-about-me-mobile.svg),
+  background-image: url(./images/illustration1-about-me-mobile.svg),
     url(./images/illustration-about-me-mobile.svg);
   background-repeat: no-repeat, no-repeat;
   background-position: right top, left bottom;
@@ -316,6 +315,12 @@ form {
   flex-direction: column;
   gap: 25px;
   align-items: center;
+}
+
+.email-valid {
+  align-self: flex-start;
+  margin-top: -1.3em;
+  color: #36b37e;
 }
 
 form input,
@@ -391,7 +396,7 @@ textarea {
 }
 
 .work-title {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 2.2em;
@@ -413,7 +418,7 @@ textarea {
 .list1 {
   background: #ebf0ee;
   color: #3a4a42;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 0.75em;
@@ -426,7 +431,7 @@ textarea {
 .description {
   color: #344563;
   text-align: left;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 1em;
@@ -534,7 +539,7 @@ textarea {
 
   .list1 {
     background: #ebf0ee;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 0.75em;
@@ -628,8 +633,7 @@ textarea {
   }
 
   #about-me-text {
-    background-image:
-      url(./desktop-images/illustration\ about\ me\ desktop.svg),
+    background-image: url(./desktop-images/illustration\ about\ me\ desktop.svg),
       url(./desktop-images/illustration-about-me-2-desktop.svg);
     background-position: right 100%, left 100%;
     justify-content: flex-start;
