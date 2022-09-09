@@ -4,13 +4,9 @@ const projects = [
     urlD: './desktop-images/SnapshootPortfolio.png',
     title: 'Keeping track of hundreds of components',
     workTitle: 'Multi-Post Stories<br />Gain+Glory',
-    technologies: [
-      'Ruby on rails',
-      'Css',
-      'JavScript',
-      'html',
-    ],
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea`',
+    technologies: ['Ruby on rails', 'Css', 'JavScript', 'html'],
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea`',
     linklive: 'https://arabiu033.github.io/Portfolio-Project/',
     linkSrc: 'https://github.com/arabiu033/Portfolio-Project',
   },
@@ -19,13 +15,9 @@ const projects = [
     urlD: './desktop-images/SnapshootPortfolio.png',
     title: 'Keeping track of hundreds of components',
     workTitle: 'Multi-Post Stories<br />Gain+Glory',
-    technologies: [
-      'Ruby on rails',
-      'Css',
-      'JavScript',
-      'html',
-    ],
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea`',
+    technologies: ['Ruby on rails', 'Css', 'JavScript', 'html'],
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea`',
     linklive: 'https://arabiu033.github.io/Portfolio-Project/',
     linkSrc: 'https://github.com/arabiu033/Portfolio-Project',
   },
@@ -34,13 +26,9 @@ const projects = [
     urlD: './desktop-images/SnapshootPortfolio.png',
     title: 'Keeping track of hundreds of components',
     workTitle: 'Multi-Post Stories<br />Gain+Glory',
-    technologies: [
-      'Ruby on rails',
-      'Css',
-      'JavScript',
-      'html',
-    ],
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea`',
+    technologies: ['Ruby on rails', 'Css', 'JavScript', 'html'],
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea`',
     linklive: 'https://arabiu033.github.io/Portfolio-Project/',
     linkSrc: 'https://github.com/arabiu033/Portfolio-Project',
   },
@@ -49,13 +37,9 @@ const projects = [
     urlD: './desktop-images/SnapshootPortfolio.png',
     title: 'Keeping track of hundreds of components',
     workTitle: 'Multi-Post Stories<br />Gain+Glory',
-    technologies: [
-      'Ruby on rails',
-      'Css',
-      'JavScript',
-      'html',
-    ],
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea`',
+    technologies: ['Ruby on rails', 'Css', 'JavScript', 'html'],
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea`',
     linklive: 'https://arabiu033.github.io/Portfolio-Project/',
     linkSrc: 'https://github.com/arabiu033/Portfolio-Project',
   },
@@ -64,13 +48,9 @@ const projects = [
     urlD: './desktop-images/SnapshootPortfolio.svg',
     title: 'Keeping track of hundreds of components',
     workTitle: 'Multi-Post Stories<br />Gain+Glory',
-    technologies: [
-      'Ruby on rails',
-      'Css',
-      'JavScript',
-      'html',
-    ],
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea`',
+    technologies: ['Ruby on rails', 'Css', 'JavScript', 'html'],
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea`',
     linklive: 'https://arabiu033.github.io/Portfolio-Project/',
     linkSrc: 'https://github.com/arabiu033/Portfolio-Project',
   },
@@ -79,13 +59,9 @@ const projects = [
     urlD: './desktop-images/SnapshootPortfolio.svg',
     title: 'Keeping track of hundreds of components',
     workTitle: 'Multi-Post Stories<br />Gain+Glory',
-    technologies: [
-      'Ruby on rails',
-      'Css',
-      'JavScript',
-      'html',
-    ],
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea`',
+    technologies: ['Ruby on rails', 'Css', 'JavScript', 'html'],
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea`',
     linklive: 'https://arabiu033.github.io/Portfolio-Project/',
     linkSrc: 'https://github.com/arabiu033/Portfolio-Project',
   },
@@ -121,7 +97,7 @@ for (let k = 0; k < projects.length; k += 1) {
   btn.setAttribute('type', 'button');
   const btnText = document.createElement('span');
   btnText.className = 'btn-text';
-  btnText.textContent = 'See Project';
+  btnText.textContent = 'see Project';
   btn.append(btnText);
   seeProj.append(btn);
 
@@ -180,37 +156,37 @@ links.forEach((element) => {
 });
 
 const popConstruction = (i) => `
-  <section class="work-info">
-    <button type="btn" class="cancel-btn">
-      <img src="./images/cancel.png" alt="icon"/>
+  <section class='work-info'>
+    <button type='btn' class='cancel-btn'>
+      <img src='./images/cancel.png' alt='icon'/>
     </button>
-    <div class="work-image">
-    <img class="Mobile-img" src=${projects[i].urlM} alt="icon"/>
+    <div class='work-image'>
+    <img class='Mobile-img' src=${projects[i].urlM} alt='icon'/>
     </div>
-    <h1 class="work-title">
+    <h1 class='work-title'>
       ${projects[i].title}
     </h1>
-    <ul class="tech-list">
-      <li class="list1">${projects[i].technologies[0]}</li>
-      <li class="list1">${projects[i].technologies[1]}</li>
-      <li class="list1">${projects[i].technologies[2]}</li>
-      <li class="list1">${projects[i].technologies[3]}</li>
-      <li class="list1">${projects[i].technologies[0]}</li>
+    <ul class='tech-list'>
+      <li class='list1'>${projects[i].technologies[0]}</li>
+      <li class='list1'>${projects[i].technologies[1]}</li>
+      <li class='list1'>${projects[i].technologies[2]}</li>
+      <li class='list1'>${projects[i].technologies[3]}</li>
+      <li class='list1'>${projects[i].technologies[0]}</li>
     </ul>
     <p class='description'>
       ${projects[i].description}
     </p>
-    <div class="work-buttons">
-      <a href=${projects[i].linklive} class="wrk-btn">
+    <div class='work-buttons'>
+      <a href=${projects[i].linklive} class='wrk-btn'>
         See Live
-        <img src='./images/seeLive.png' alt="see live"/>
+        <img src='./images/seeLive.png' alt='see live'/>
       </a>
-      <a href=${projects[i].linkSrc} class="wrk-btn">
+      <a href=${projects[i].linkSrc} class='wrk-btn'>
         See Source
-        <img src='./images/seeSrc.png' alt="see live"/>
+        <img src='./images/seeSrc.png' alt='see live'/>
       </a>
     </div>
-    <script src="script.js"></script>
+    <script src='script.js'></script>
   </section>`;
 
 for (let i = 0; i < seeProject.length; i += 1) {
@@ -253,3 +229,57 @@ form.addEventListener('submit', (e) => {
     form.submit();
   }
 });
+
+// Using the webpage storage API
+const userData = {};
+const inputName = document.getElementById('input-name');
+const inputEmail = document.getElementById('input-email');
+const inputTextarea = document.getElementById('input-textarea');
+
+// Function to test whether local storage is available and supported
+function storageSupported(type) {
+  let storage;
+  try {
+    storage = window[type];
+    const a = '__testing_storage__';
+    storage.setItem(a, a);
+    storage.removeItem(a);
+    return true;
+  } catch (e) {
+    return (
+      e instanceof DOMException
+      && (e.code === 22
+        || e.code === 1014
+        || e.name === 'QuotaExceededError'
+        || e.name === 'NS_ERROR_DOM_QUOTA_REACHED')
+        && storage
+        && storage.length !== 0);
+  }
+}
+
+function updateSite() {
+  const currentUserData = JSON.parse(localStorage.getItem('userData'));
+  inputName.value = currentUserData.name ? currentUserData.name : '';
+  inputEmail.value = currentUserData.email ? currentUserData.email : '';
+  inputTextarea.value = currentUserData.textarea ? currentUserData.textarea : '';
+}
+
+function populateStorage() {
+  userData.name = inputName.value;
+  userData.email = inputEmail.value;
+  userData.textarea = inputTextarea.value;
+  localStorage.setItem('userData', JSON.stringify(userData));
+
+  updateSite();
+}
+
+if (storageSupported('localStorage')) {
+  if (!localStorage.getItem('userData')) {
+    // check whether the storage has been populated before
+    populateStorage();
+  } else {
+    updateSite();
+  }
+}
+
+form.onchange = populateStorage;
