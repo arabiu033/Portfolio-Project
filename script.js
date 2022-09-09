@@ -247,13 +247,14 @@ function storageSupported(type) {
     return true;
   } catch (e) {
     return (
-      e instanceof DOMException &&
+      e instanceof DOMException
+      &&
       (e.code === 22
         || e.code === 1014
         || e.name === 'QuotaExceededError'
         || e.name === 'NS_ERROR_DOM_QUOTA_REACHED')
         && storage
-        && storage.length !=+ 0);
+        && storage.length !== 0);
   }
 }
 
