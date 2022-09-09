@@ -246,8 +246,8 @@ button:hover {
 #about-me-text {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   height: 20%;
   background-image:
     url(./images/illustration1-about-me-mobile.svg),
