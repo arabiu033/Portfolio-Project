@@ -16,7 +16,7 @@
 
 ## Live Demo
 
-[Portfolio-Project](https://arabiu033.github.io/Portfolio-Project/)
+[Portfolio-Project](https://arabiu033-portfolio.netlify.app)
 
 
 ## Author
