@@ -5,13 +5,7 @@ const projects = [
     title: 'Cherry Rooms',
     workTitle: 'Cherry Rooms',
     technologies: ['Ruby on rails', 'Css', 'JavScript', 'html', 'RSwag', 'Jwt', 'React', 'Redux'],
-    description: 'This app provides comprehensive information about all laureates'
-    + 'and their wonderful nobel prize winning momments.Cherry Rooms is a front-end'
-    + 'React project designed for the purpose of booking rooms in hotels, motels, or'
-    + 'any other accommodation service. This project provides an intuitive and user-friendly'
-    + 'interface that allows users to easily browse and reserve rooms based on their'
-    + 'preferences and availability. The project is built using React, HTML, CSS, and JavaScript,'
-    + 'with the use of APIs to fetch data from the backend.ps',
+    description: 'Cherry Rooms is a front-end React project designed for the purpose of booking rooms in hotels, motels, or any other accommodation service. This project provides an intuitive and user-friendly interface that allows users to easily browse and reserve rooms based on their preferences and availability. The project is built using React, HTML, CSS, and JavaScript, with the use of APIs to fetch data from the backend.',
     linklive: 'https://cherryrooms.netlify.app/',
     linkSrc: 'https://github.com/adel-gu/Cherry-Rooms-front-end',
   },
@@ -21,8 +15,7 @@ const projects = [
     title: 'To-do List',
     workTitle: 'To-do List',
     technologies: ['Css', 'JavScript', 'html', 'ES6', 'LocalStorage', 'Webaack'],
-    description: '"To-do list" is a tool that helps to organize your day. It simply lists the things that'
-    + 'you need to do and allows you to mark them as complete. Built using ES6 and Webpack',
+    description: 'A "To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. Built using ES6 and Webpack',
     linklive: 'https://arabiu033-todolist.netlify.app/',
     linkSrc: 'https://github.com/arabiu033/to_do-list',
   },
@@ -32,7 +25,7 @@ const projects = [
     title: 'Podcast submit webpage',
     workTitle: 'Podcast submit webpage',
     technologies: ['Css', 'JavScript', 'html', 'semantics', 'boostrap'],
-    description: 'A simple pod conference landing page. my first capstone projet.',
+    description: 'A simple pod conference landing page. My first capstone project.',
     linklive: 'https://podcast-capstone.netlify.app/',
     linkSrc: 'https://github.com/arabiu033/pod_cast',
   },
@@ -42,11 +35,7 @@ const projects = [
     title: 'Pocolee - Budget app',
     workTitle: 'Pocolee - Budget app',
     technologies: ['Ruby', 'Rails', 'JavScript', 'html', 'Devise', 'Boostrap', 'Postgresql', 'TDD'],
-    description: 'This app provides comprehensive information about all laureates'
-    + 'and their wonderful nobel prize winning momments.Pocolee is a mobile web application'
-    + 'that can help you keep track of your daily financial transaction and manage your budget'
-    + 'where you have a list of transactions associated with a category so that you can see how much'
-    + 'money you spent and on what',
+    description: 'Pocolee is a mobile web application that can help you keep track of your daily financial transaction and manage your budget. You have a list of transactions associated with a category so that you can see how much money you spent and on what.',
     linklive: 'https://pocolee.onrender.com/',
     linkSrc: 'https://github.com/arabiu033/budget_app',
   },
@@ -56,8 +45,7 @@ const projects = [
     title: 'space-travelers-hub',
     workTitle: 'space-travelers-hub',
     technologies: ['React', 'Redux', 'Promises', 'Webpack', 'Rest Api', 'Boostrap', '', 'Jest'],
-    description: 'This is a web application for a company that provides commercial and scientific'
-    + 'space travel services. The application allows users to book rockets and join selected space missions.',
+    description: 'This is a web application for a company that provides commercial and scientific space travel services. The application allows users to book rockets and join selected space missions.',
     linklive: 'https://space-hubs.netlify.app/',
     linkSrc: 'https://github.com/arabiu033/space_travelers_hub',
   },
@@ -67,7 +55,7 @@ const projects = [
     title: 'Nobel Laureates',
     workTitle: 'Nobel Laureates',
     technologies: ['React', 'Redux', 'Promises', 'Webpack', 'Rest Api', 'Boostrap', 'Jest'],
-    description: 'This app provides comprehensive information about all laureates and their wonderful nobel prize winning moments.',
+    description: 'This app provides comprehensive information about all laureates and their wonderful Nobel prize-winning moments.',
     linklive: 'https://nobels.netlify.app/',
     linkSrc: 'https://github.com/arabiu033/capstone_project_0x03',
   },
@@ -77,9 +65,7 @@ const projects = [
     title: 'Countries Info',
     workTitle: 'Countries Info',
     technologies: ['React', 'Redux', 'Promises', 'Webpack', 'Rest Api', 'Boostrap', 'Jest'],
-    description: 'This is a simple API integration project displaying a list of countries'
-    + 'and its information fetching data using API The project is bundled using webpack and'
-    + 'makes use of dynamic code through Javascript. the project makes use of jest for unit testing.',
+    description: 'This is a simple API integration project displaying a list of countries and its information fetching data using API The project is bundled using webpack and makes use of dynamic code through Javascript. the project makes use of jest for unit testing.',
     linklive: 'https://countrie-caps.netlify.app',
     linkSrc: 'https://github.com/arabiu033/capstone_project_0x02',
   },
@@ -210,11 +196,15 @@ for (let i = 0; i < seeProject.length; i += 1) {
     projects[i].technologies.forEach((t) => {
       techContainer.innerHTML += `<li class="popup-tech-li">${t}</li>`;
     });
+    x.classList.add('hide-top');
+    menuContainer.style = 'visibility: hidden';
     recentWork.classList.add('blurr');
     abtm.classList.add('blurr');
     const cancelBtn = document.querySelector('.cross-popup-icon');
     cancelBtn.addEventListener('click', async () => {
       document.body.removeChild(divv);
+      x.classList.remove('hide-top');
+      menuContainer.style = 'visibility: visible';
       abtm.classList.remove('blurr');
       recentWork.classList.remove('blurr');
     });

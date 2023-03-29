@@ -47,8 +47,12 @@ header {
 #tool-bar {
   display: flex;
   justify-content: space-between;
-  padding: 3% 7%;
+  padding: 1% 7%;
   align-items: baseline;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  z-index: 6;
 }
 
 .collapse-toolbar {
@@ -611,11 +615,12 @@ textarea {
   }
 
   .popup-image {
-    height: 280px;
+    height: 310px;
+    width: 100%;
   }
 
   .popup-image img {
-    object-fit: scale-down;
+    object-fit: cover;
   }
 
   .work-details {
@@ -659,6 +664,10 @@ textarea {
     font-weight: 600;
     font-size: 12px;
     line-height: 20px;
+    position: fixed;
+    background-color: #fff;
+    z-index: 7;
+    width: 300px;
   }
 
   #main {
